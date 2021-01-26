@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!-- Google Font  -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <!-- CSS  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Boostrap script  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+  <title>Frontend Mentor | Fylo data storage component</title>
+</head>
+
+<body>
+  <main class="grid-container">
+    <div class="left-container item-1 radius-corner">
+      <img class="logo-img " src="images/logo.svg" alt="">
+      <div class="icons">
+        <img class="icon-img radius-corner" src="images/icon-document.svg" alt="">
+        <img class="icon-img radius-corner" src="images/icon-folder.svg" alt="">
+        <img class="icon-img radius-corner" src="images/icon-upload.svg" alt="">
+      </div>
+    </div>
+    <div class="right-container item-2 radius-corner">
+      <p>You’ve used <strong>815 GB</strong> of your storage</p>
+      <div class="bubble radius-corner bubble-bottom-left">
+        <p contenteditable>185 <span class="capitalize">GB Left</span></p>
+      </div>
+      <div class="progress radius-corner">
+        <div class="progress-bar radius-corner bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="cirle">
+            ""
+          </div>
+        </div>
+      </div>
+      <div class="progress-number">
+        <p class="zero">0 GB</p>
+        <p class="thousand">1000 GB</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Ivet Malickova</a>.
+    </div>
+  </footer>
+
+</body>
+
+</html>
