@@ -12,7 +12,7 @@ body {
   background-color: hsl(229, 57%, 11%);
   background-image: url(/images/bg-desktop.png);
   background-repeat: no-repeat;
-  background-position: center bottom -26rem;
+  background-position: center bottom -25rem;
   background-size: cover;
   margin: 19rem auto 0;
 }
